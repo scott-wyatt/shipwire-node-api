@@ -1,0 +1,31 @@
+{
+  "name": "shipwire-node-api",
+  "version": "0.0.1",
+  "description": "Node.js API Client Wrapper",
+  "main": "lib/shipwire.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scott-wyatt/shipwire-node-api"
+  },
+  "keywords": [
+    "Shipwire",
+    "API",
+    "Client",
+    "Wrapper"
+  ],
+  "author": "Scott B Wyatt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scott-wyatt/shipwire-node-api/issues"
+  },
+  "homepage": "https://github.com/scott-wyatt/shipwire-node-api",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "request": "^2.42.0"
+  }
+}
