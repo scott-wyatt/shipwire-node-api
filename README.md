@@ -21,7 +21,28 @@ var Shipwire = require('shipwire').Shipwire;
 module.exports = new Shipwire(<authroization>, <secret>, <sandbox>);
 ```
 
+##Orders
+###Create
+```js
+	Shipwire.orders.create({
+		
+		orderNo:'foobar1',
+		externalId: 'rFoobar1',
+		items: [<array_of_items>]
+
+	}, function(err, order){
+		//asynchronously called
+		if(err){
+			//handle err
+		}
+		//handle order
+	});
+```
+
 ##Change Log
+
+###v0.0.3
+Standarize output
 
 ###v0.0.2
 Add Support for Order API
