@@ -18,5 +18,13 @@ Then include the Shipwire API in your script
 // Load Shipwire API
 var Shipwire = require('shipwire').Shipwire;
 // Configure Shipwire api
-module.exports = new shipwire(<authroization>, <secret>, <sandbox>);
+module.exports = new Shipwire(<authroization>, <secret>, <sandbox>);
 ```
+
+##Change Log
+
+###v0.0.2
+Add Support for Order API
+
+###v0.0.1
+Initial Upload of API
