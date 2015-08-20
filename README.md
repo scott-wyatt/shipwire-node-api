@@ -21,8 +21,8 @@ var Shipwire = require('shipwire').Shipwire;
 module.exports = new Shipwire(<authroization>, <secret>, <sandbox>);
 ```
 
-##orders
-###create
+##Orders
+###orders.create
 
 Creates a new Order
 
@@ -41,36 +41,36 @@ Creates a new Order
 		//handle order
 	});
 ```
-###findOne
+###orders.findOne
 
 Finds an Order
 
-###find
+###orders.find
 Finds multiple Orders
 
-###cancel
-Cancels and Order
+###orders.cancel
+Cancels an Order
 
-###holds
+###orders.holds
 Get the list of holds, if any, on an Order
 
-###holdsClear
+###orders.holdsClear
 Clear holds on an Order
 
-###items
+###orders.items
 Get the contents of an Order
 
-###returns
+###orders.returns
 Get any returns associated with an Order
 
 
-###splitOrders
+###orders.splitOrders
 Get splitOrders information about an Order
 
-###trackings
+###orders.trackings
 Get Tracking Information of an Order
 
-###Update
+###orders.update
 Modifies Information about an Order
 
 ##Change Log
