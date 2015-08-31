@@ -16,7 +16,7 @@ npm install shipwire-node-api
 Then include the Shipwire API in your script
 ```js
 // Load Shipwire API
-var Shipwire = require('shipwire').Shipwire;
+var Shipwire = require('shipwire-node-api').Shipwire;
 // Configure Shipwire api
 module.exports = new Shipwire(<authroization>, <secret>, <sandbox>);
 ```
