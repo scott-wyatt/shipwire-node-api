@@ -18,7 +18,7 @@ Then include the Shipwire API in your script
 // Load Shipwire API
 var Shipwire = require('shipwire-node-api').Shipwire;
 // Configure Shipwire api
-module.exports = new Shipwire(<authroization>, <secret>, <sandbox>);
+module.exports = new Shipwire(<username>, <password>, <sandbox>);
 ```
 
 ##Orders
@@ -62,7 +62,6 @@ Get the contents of an Order
 
 ###orders.returns
 Get any returns associated with an Order
-
 
 ###orders.splitOrders
 Get splitOrders information about an Order
