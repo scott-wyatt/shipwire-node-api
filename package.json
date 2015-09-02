@@ -1,6 +1,6 @@
 {
   "name": "shipwire-node-api",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Node.js API Client Wrapper",
   "main": "lib/shipwire.js",
   "scripts": {
