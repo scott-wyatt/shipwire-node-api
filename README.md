@@ -74,6 +74,9 @@ Modifies Information about an Order
 
 ##Change Log
 
+###v0.0.12
+POST/PUT as JSON. Order API complete.
+
 ###v0.0.3
 Standarize output
 
