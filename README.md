@@ -41,6 +41,7 @@ Creates a new Order
 		//handle order
 	});
 ```
+
 ###orders.findOne
 
 Finds an Order
